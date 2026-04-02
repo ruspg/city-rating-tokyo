@@ -1,0 +1,119 @@
+'use client';
+
+import { useEffect, useMemo } from 'react';
+import {
+  MapContainer,
+  TileLayer,
+  CircleMarker,
+  Popup,
+  useMap,
+} from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import { Station, WeightConfig } from '@/lib/types';
+import { calculateWeightedScore, scoreToColor } from '@/lib/scoring';
+import { useAppStore } from '@/lib/store';
+import Link from 'next/link';
+
+function FlyToStation({ lat, lng }: { lat: number; lng: number }) {
+  const map = useMap();
+  useEffect(() => {
+    map.flyTo([lat, lng], 14, { duration: 0.8 });
+  }, [map, lat, lng]);
+  return null;
+}
+
+interface MapViewProps {
+  stations: Station[];
+}
+
+export default function MapView({ stations }: MapViewProps) {
+  const weights = useAppStore((s) => s.weights);
+  const selectedStation = useAppStore((s) => s.selectedStation);
+  const setSelectedStation = useAppStore((s) => s.setSelectedStation);
+
+  const scoredStations = useMemo(() => {
+    return stations.map((s) => ({
+      ...s,
+      score: s.ratings ? calculateWeightedScore(s.ratings, weights) : null,
+    }));
+  }, [stations, weights]);
+
+  const flyTarget = useMemo(() => {
+    if (!selectedStation) return null;
+    return scoredStations.find((s) => s.slug === selectedStation);
+  }, [selectedStation, scoredStations]);
+
+  return (
+    <MapContainer
+      center={[35.6762, 139.7503]}
+      zoom={12}
+      className="h-full w-full"
+      zoomControl={false}
+    >
+      <TileLayer
+        attribution='&copy; <a href="https://carto.com/">CARTO</a>'
+        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+      />
+      {flyTarget && <FlyToStation lat={flyTarget.lat} lng={flyTarget.lng} />}
+      {scoredStations.map((station) => {
+        const score = station.score;
+        const color = score !== null ? scoreToColor(score) : '#9CA3AF';
+        const radius = score !== null ? 6 + score * 0.5 : 5;
+
+        return (
+          <CircleMarker
+            key={station.slug}
+            center={[station.lat, station.lng]}
+            radius={radius}
+            pathOptions={{
+              fillColor: color,
+              color: '#374151',
+              weight: 1,
+              opacity: 0.8,
+              fillOpacity: 0.85,
+            }}
+            eventHandlers={{
+              click: () => setSelectedStation(station.slug),
+            }}
+          >
+            <Popup>
+              <div className="min-w-[180px]">
+                <div className="font-bold text-base">
+                  {station.name_en}
+                </div>
+                <div className="text-gray-500 text-sm mb-1">
+                  {station.name_jp}
+                </div>
+                {score !== null ? (
+                  <>
+                    <div className="text-lg font-bold" style={{ color }}>
+                      {score.toFixed(1)} / 10
+                    </div>
+                    <div className="text-xs text-gray-500 mb-2">
+                      {station.line_count} lines
+                    </div>
+                    {station.rent_avg?.['1k_1ldk'] && (
+                      <div className="text-xs">
+                        Rent: ~&yen;{(station.rent_avg['1k_1ldk'] / 1000).toFixed(0)}k/mo
+                      </div>
+                    )}
+                    <Link
+                      href={`/station/${station.slug}`}
+                      className="text-blue-600 text-xs mt-1 inline-block hover:underline"
+                    >
+                      View details &rarr;
+                    </Link>
+                  </>
+                ) : (
+                  <div className="text-xs text-gray-400">
+                    {station.line_count} lines &middot; Data coming soon
+                  </div>
+                )}
+              </div>
+            </Popup>
+          </CircleMarker>
+        );
+      })}
+    </MapContainer>
+  );
+}

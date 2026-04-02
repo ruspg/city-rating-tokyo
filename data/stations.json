@@ -1,0 +1,4448 @@
+[
+  {
+    "slug": "shinjuku",
+    "name_en": "Shinjuku",
+    "name_jp": "新宿",
+    "lat": 35.689729,
+    "lng": 139.700464,
+    "lines": [
+      "11302",
+      "11311",
+      "11312",
+      "11313",
+      "11321",
+      "11328",
+      "11333",
+      "24001",
+      "24007",
+      "25001",
+      "28002",
+      "99301",
+      "99304"
+    ],
+    "line_count": 13,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tokyo",
+    "name_en": "Tokyo",
+    "name_jp": "東京",
+    "lat": 35.681391,
+    "lng": 139.766103,
+    "lines": [
+      "11301",
+      "11302",
+      "11308",
+      "11311",
+      "11312",
+      "11314",
+      "11326",
+      "11328",
+      "11332",
+      "11343",
+      "28002"
+    ],
+    "line_count": 11,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "yokohama",
+    "name_en": "Yokohama",
+    "name_jp": "横浜",
+    "lat": 35.466195,
+    "lng": 139.622704,
+    "lines": [
+      "11301",
+      "11307",
+      "11308",
+      "11328",
+      "11332",
+      "11333",
+      "26001",
+      "27001",
+      "29001",
+      "99310",
+      "99316"
+    ],
+    "line_count": 11,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shibuya",
+    "name_en": "Shibuya",
+    "name_jp": "渋谷",
+    "lat": 35.658871,
+    "lng": 139.701238,
+    "lines": [
+      "11302",
+      "11321",
+      "11328",
+      "11333",
+      "24006",
+      "26001",
+      "26003",
+      "28001",
+      "28008",
+      "28010"
+    ],
+    "line_count": 10,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "chiba",
+    "name_en": "Chiba",
+    "name_jp": "千葉",
+    "lat": 35.613425,
+    "lng": 140.112837,
+    "lines": [
+      "11313",
+      "11314",
+      "11314",
+      "11324",
+      "11325",
+      "11328",
+      "23004",
+      "99331",
+      "99332"
+    ],
+    "line_count": 9,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ikebukuro",
+    "name_en": "Ikebukuro",
+    "name_jp": "池袋",
+    "lat": 35.730256,
+    "lng": 139.711086,
+    "lines": [
+      "11302",
+      "11321",
+      "11328",
+      "11333",
+      "21001",
+      "22001",
+      "28002",
+      "28006",
+      "28010"
+    ],
+    "line_count": 9,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "omiya",
+    "name_en": "Omiya",
+    "name_jp": "大宮",
+    "lat": 35.906439,
+    "lng": 139.62405,
+    "lines": [
+      "11319",
+      "11321",
+      "11322",
+      "11323",
+      "11328",
+      "11332",
+      "11333",
+      "21004",
+      "99321"
+    ],
+    "line_count": 9,
+    "prefecture": "11",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ueno",
+    "name_en": "Ueno",
+    "name_jp": "上野",
+    "lat": 35.71379,
+    "lng": 139.777043,
+    "lines": [
+      "11302",
+      "11319",
+      "11320",
+      "11323",
+      "11332",
+      "11343",
+      "28001",
+      "28003"
+    ],
+    "line_count": 8,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shimbashi",
+    "name_en": "Shimbashi",
+    "name_jp": "新橋",
+    "lat": 35.666195,
+    "lng": 139.758587,
+    "lines": [
+      "11301",
+      "11302",
+      "11308",
+      "11332",
+      "28001",
+      "99302",
+      "99311"
+    ],
+    "line_count": 7,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kita-senju",
+    "name_en": "Kita-Senju",
+    "name_jp": "北千住",
+    "lat": 35.749677,
+    "lng": 139.804872,
+    "lines": [
+      "11320",
+      "11320",
+      "21002",
+      "28003",
+      "28005",
+      "99309"
+    ],
+    "line_count": 6,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "musashi-kosugi",
+    "name_en": "Musashi-Kosugi",
+    "name_jp": "武蔵小杉",
+    "lat": 35.57669,
+    "lng": 139.65963,
+    "lines": [
+      "11303",
+      "11308",
+      "11328",
+      "11333",
+      "26001",
+      "26002"
+    ],
+    "line_count": 6,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "narita",
+    "name_en": "Narita",
+    "name_jp": "成田",
+    "lat": 35.777796,
+    "lng": 140.313853,
+    "lines": [
+      "11327",
+      "11327",
+      "11327",
+      "11328",
+      "23001",
+      "23001"
+    ],
+    "line_count": 6,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nippori",
+    "name_en": "Nippori",
+    "name_jp": "日暮里",
+    "lat": 35.727908,
+    "lng": 139.771287,
+    "lines": [
+      "11302",
+      "11320",
+      "11332",
+      "23001",
+      "23006",
+      "99342"
+    ],
+    "line_count": 6,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ofuna",
+    "name_en": "Ofuna",
+    "name_jp": "大船",
+    "lat": 35.353466,
+    "lng": 139.531127,
+    "lines": [
+      "11301",
+      "11307",
+      "11308",
+      "11328",
+      "11333",
+      "99326"
+    ],
+    "line_count": 6,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shinagawa",
+    "name_en": "Shinagawa",
+    "name_jp": "品川",
+    "lat": 35.62876,
+    "lng": 139.738999,
+    "lines": [
+      "11301",
+      "11302",
+      "11308",
+      "11328",
+      "11332",
+      "27001"
+    ],
+    "line_count": 6,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "akabane",
+    "name_en": "Akabane",
+    "name_jp": "赤羽",
+    "lat": 35.778026,
+    "lng": 139.720928,
+    "lines": [
+      "11319",
+      "11321",
+      "11323",
+      "11332",
+      "11333"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "akihabara",
+    "name_en": "Akihabara",
+    "name_jp": "秋葉原",
+    "lat": 35.698619,
+    "lng": 139.773288,
+    "lines": [
+      "11302",
+      "11313",
+      "11332",
+      "28003",
+      "99309"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hachioji",
+    "name_en": "Hachioji",
+    "name_jp": "八王子",
+    "lat": 35.655555,
+    "lng": 139.338998,
+    "lines": [
+      "11306",
+      "11311",
+      "11312",
+      "11317",
+      "11328"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "iidabashi",
+    "name_en": "Iidabashi",
+    "name_jp": "飯田橋",
+    "lat": 35.701835,
+    "lng": 139.745143,
+    "lines": [
+      "11313",
+      "28004",
+      "28006",
+      "28009",
+      "99301"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "keisei-takasago",
+    "name_en": "Keisei-Takasago",
+    "name_jp": "京成高砂",
+    "lat": 35.750932,
+    "lng": 139.866875,
+    "lines": [
+      "23001",
+      "23002",
+      "23003",
+      "23006",
+      "99340"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kichijoji",
+    "name_en": "Kichijoji",
+    "name_jp": "吉祥寺",
+    "lat": 35.703119,
+    "lng": 139.579765,
+    "lines": [
+      "11311",
+      "11312",
+      "11313",
+      "11328",
+      "24006"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kokubunji",
+    "name_en": "Kokubunji",
+    "name_jp": "国分寺",
+    "lat": 35.700123,
+    "lng": 139.480841,
+    "lines": [
+      "11311",
+      "11312",
+      "11328",
+      "22010",
+      "22011"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nagatacho",
+    "name_en": "Nagatacho",
+    "name_jp": "永田町",
+    "lat": 35.677021,
+    "lng": 139.737047,
+    "lines": [
+      "28001",
+      "28002",
+      "28006",
+      "28008",
+      "28009"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishi-funabashi",
+    "name_en": "Nishi-Funabashi",
+    "name_jp": "西船橋",
+    "lat": 35.707283,
+    "lng": 139.959536,
+    "lines": [
+      "11305",
+      "11313",
+      "11326",
+      "28004",
+      "99338"
+    ],
+    "line_count": 5,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "okachimachi",
+    "name_en": "Okachimachi",
+    "name_jp": "御徒町",
+    "lat": 35.707282,
+    "lng": 139.774727,
+    "lines": [
+      "11302",
+      "11332",
+      "28001",
+      "28003",
+      "99301"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "otemachi",
+    "name_en": "Otemachi",
+    "name_jp": "大手町",
+    "lat": 35.686564,
+    "lng": 139.7662,
+    "lines": [
+      "28002",
+      "28004",
+      "28005",
+      "28008",
+      "99303"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tachikawa",
+    "name_en": "Tachikawa",
+    "name_jp": "立川",
+    "lat": 35.698202,
+    "lng": 139.413704,
+    "lines": [
+      "11303",
+      "11311",
+      "11312",
+      "11315",
+      "11328"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "totsuka",
+    "name_en": "Totsuka",
+    "name_jp": "戸塚",
+    "lat": 35.400432,
+    "lng": 139.534282,
+    "lines": [
+      "11301",
+      "11308",
+      "11328",
+      "11333",
+      "99316"
+    ],
+    "line_count": 5,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "yotsuya",
+    "name_en": "Yotsuya",
+    "name_jp": "四ツ谷",
+    "lat": 35.686041,
+    "lng": 139.730644,
+    "lines": [
+      "11311",
+      "11312",
+      "11313",
+      "28002",
+      "28009"
+    ],
+    "line_count": 5,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ebisu",
+    "name_en": "Ebisu",
+    "name_jp": "恵比寿",
+    "lat": 35.646685,
+    "lng": 139.71007,
+    "lines": [
+      "11302",
+      "11321",
+      "11333",
+      "28003"
+    ],
+    "line_count": 4,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "funabashi",
+    "name_en": "Funabashi",
+    "name_jp": "船橋",
+    "lat": 35.701865,
+    "lng": 139.984707,
+    "lines": [
+      "11313",
+      "11314",
+      "21004",
+      "23001"
+    ],
+    "line_count": 4,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "haijima",
+    "name_en": "Haijima",
+    "name_jp": "拝島",
+    "lat": 35.721278,
+    "lng": 139.343468,
+    "lines": [
+      "11315",
+      "11316",
+      "11317",
+      "22008"
+    ],
+    "line_count": 4,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kanda",
+    "name_en": "Kanda",
+    "name_jp": "神田",
+    "lat": 35.691173,
+    "lng": 139.770641,
+    "lines": [
+      "11302",
+      "11312",
+      "11332",
+      "28001"
+    ],
+    "line_count": 4,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "meguro",
+    "name_en": "Meguro",
+    "name_jp": "目黒",
+    "lat": 35.633923,
+    "lng": 139.715775,
+    "lines": [
+      "11302",
+      "26002",
+      "28009",
+      "99303"
+    ],
+    "line_count": 4,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "mitaka",
+    "name_en": "Mitaka",
+    "name_jp": "三鷹",
+    "lat": 35.702683,
+    "lng": 139.560325,
+    "lines": [
+      "11311",
+      "11312",
+      "11313",
+      "11328"
+    ],
+    "line_count": 4,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nerima",
+    "name_en": "Nerima",
+    "name_jp": "練馬",
+    "lat": 35.737893,
+    "lng": 139.654368,
+    "lines": [
+      "22001",
+      "22003",
+      "22004",
+      "99301"
+    ],
+    "line_count": 4,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishi-nippori",
+    "name_en": "Nishi-Nippori",
+    "name_jp": "西日暮里",
+    "lat": 35.731954,
+    "lng": 139.766857,
+    "lines": [
+      "11302",
+      "11332",
+      "28005",
+      "99342"
+    ],
+    "line_count": 4,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ochanomizu",
+    "name_en": "Ochanomizu",
+    "name_jp": "御茶ノ水",
+    "lat": 35.699605,
+    "lng": 139.764955,
+    "lines": [
+      "11312",
+      "11313",
+      "28002",
+      "28005"
+    ],
+    "line_count": 4,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "osaki",
+    "name_en": "Osaki",
+    "name_jp": "大崎",
+    "lat": 35.619772,
+    "lng": 139.728439,
+    "lines": [
+      "11302",
+      "11321",
+      "11333",
+      "99337"
+    ],
+    "line_count": 4,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-kamagaya",
+    "name_en": "Shin-Kamagaya",
+    "name_jp": "新鎌ヶ谷",
+    "lat": 35.780221,
+    "lng": 139.999455,
+    "lines": [
+      "21004",
+      "23006",
+      "99329",
+      "99340"
+    ],
+    "line_count": 4,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "takao",
+    "name_en": "Takao",
+    "name_jp": "高尾",
+    "lat": 35.642026,
+    "lng": 139.282288,
+    "lines": [
+      "11311",
+      "11312",
+      "11328",
+      "24003"
+    ],
+    "line_count": 4,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "urawa",
+    "name_en": "Urawa",
+    "name_jp": "浦和",
+    "lat": 35.858496,
+    "lng": 139.657109,
+    "lines": [
+      "11319",
+      "11323",
+      "11332",
+      "11333"
+    ],
+    "line_count": 4,
+    "prefecture": "11",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "abiko",
+    "name_en": "Abiko",
+    "name_jp": "我孫子",
+    "lat": 35.87279,
+    "lng": 140.010466,
+    "lines": [
+      "11320",
+      "11320",
+      "11327"
+    ],
+    "line_count": 3,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "aoyama-itchome",
+    "name_en": "Aoyama-Itchome",
+    "name_jp": "青山一丁目",
+    "lat": 35.672765,
+    "lng": 139.724159,
+    "lines": [
+      "28001",
+      "28008",
+      "99301"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "asakusa",
+    "name_en": "Asakusa",
+    "name_jp": "浅草",
+    "lat": 35.711883,
+    "lng": 139.798214,
+    "lines": [
+      "21002",
+      "28001",
+      "99302"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "bakurocho",
+    "name_en": "Bakurocho",
+    "name_jp": "馬喰町",
+    "lat": 35.693365,
+    "lng": 139.78238,
+    "lines": [
+      "11314",
+      "99302",
+      "99304"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "chikatetsu-akatsuka",
+    "name_en": "Chikatetsu-Akatsuka",
+    "name_jp": "地下鉄赤塚",
+    "lat": 35.770558,
+    "lng": 139.644482,
+    "lines": [
+      "21001",
+      "28006",
+      "28010"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "chikatetsu-narimasu",
+    "name_en": "Chikatetsu-Narimasu",
+    "name_jp": "地下鉄成増",
+    "lat": 35.777723,
+    "lng": 139.632708,
+    "lines": [
+      "21001",
+      "28006",
+      "28010"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "fujisawa",
+    "name_en": "Fujisawa",
+    "name_jp": "藤沢",
+    "lat": 35.338882,
+    "lng": 139.487293,
+    "lines": [
+      "11301",
+      "25002",
+      "99320"
+    ],
+    "line_count": 3,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ginza",
+    "name_en": "Ginza",
+    "name_jp": "銀座",
+    "lat": 35.671989,
+    "lng": 139.763965,
+    "lines": [
+      "28001",
+      "28002",
+      "28003"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "gotanda",
+    "name_en": "Gotanda",
+    "name_jp": "五反田",
+    "lat": 35.625974,
+    "lng": 139.723822,
+    "lines": [
+      "11302",
+      "26005",
+      "99302"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hamamatsucho",
+    "name_en": "Hamamatsucho",
+    "name_jp": "浜松町",
+    "lat": 35.655391,
+    "lng": 139.757135,
+    "lines": [
+      "11302",
+      "11332",
+      "99336"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hashimoto",
+    "name_en": "Hashimoto",
+    "name_jp": "橋本",
+    "lat": 35.594975,
+    "lng": 139.344586,
+    "lines": [
+      "11306",
+      "11309",
+      "24002"
+    ],
+    "line_count": 3,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "higashi-kanagawa",
+    "name_en": "Higashi-Kanagawa",
+    "name_jp": "東神奈川",
+    "lat": 35.47804,
+    "lng": 139.633466,
+    "lines": [
+      "11306",
+      "11332",
+      "27001"
+    ],
+    "line_count": 3,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "higashi-matsudo",
+    "name_en": "Higashi-Matsudo",
+    "name_jp": "東松戸",
+    "lat": 35.770611,
+    "lng": 139.943848,
+    "lines": [
+      "11305",
+      "23006",
+      "99340"
+    ],
+    "line_count": 3,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "higashi-murayama",
+    "name_en": "Higashi-Murayama",
+    "name_jp": "東村山",
+    "lat": 35.76006,
+    "lng": 139.465839,
+    "lines": [
+      "22007",
+      "22009",
+      "22010"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hiyoshi",
+    "name_en": "Hiyoshi",
+    "name_jp": "日吉",
+    "lat": 35.5539,
+    "lng": 139.646944,
+    "lines": [
+      "26001",
+      "26002",
+      "99343"
+    ],
+    "line_count": 3,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "jimbocho",
+    "name_en": "Jimbocho",
+    "name_jp": "神保町",
+    "lat": 35.695966,
+    "lng": 139.757606,
+    "lines": [
+      "28008",
+      "99303",
+      "99304"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kamata",
+    "name_en": "Kamata",
+    "name_jp": "蒲田",
+    "lat": 35.562517,
+    "lng": 139.716032,
+    "lines": [
+      "11332",
+      "26005",
+      "26006"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kanazawa-hakkei",
+    "name_en": "Kanazawa-Hakkei",
+    "name_jp": "金沢八景",
+    "lat": 35.331223,
+    "lng": 139.62018,
+    "lines": [
+      "27001",
+      "27004",
+      "99317"
+    ],
+    "line_count": 3,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kashiwa",
+    "name_en": "Kashiwa",
+    "name_jp": "柏",
+    "lat": 35.862316,
+    "lng": 139.971148,
+    "lines": [
+      "11320",
+      "11320",
+      "21004"
+    ],
+    "line_count": 3,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kawagoe",
+    "name_en": "Kawagoe",
+    "name_jp": "川越",
+    "lat": 35.906742,
+    "lng": 139.483078,
+    "lines": [
+      "11322",
+      "11322",
+      "21001"
+    ],
+    "line_count": 3,
+    "prefecture": "11",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kawasaki",
+    "name_en": "Kawasaki",
+    "name_jp": "川崎",
+    "lat": 35.531311,
+    "lng": 139.697485,
+    "lines": [
+      "11301",
+      "11303",
+      "11332"
+    ],
+    "line_count": 3,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kinshicho",
+    "name_en": "Kinshicho",
+    "name_jp": "錦糸町",
+    "lat": 35.696802,
+    "lng": 139.814136,
+    "lines": [
+      "11313",
+      "11314",
+      "28008"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kotake-mukaihara",
+    "name_en": "Kotake-Mukaihara",
+    "name_jp": "小竹向原",
+    "lat": 35.743803,
+    "lng": 139.678572,
+    "lines": [
+      "22003",
+      "28006",
+      "28010"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kudanshita",
+    "name_en": "Kudanshita",
+    "name_jp": "九段下",
+    "lat": 35.695589,
+    "lng": 139.751948,
+    "lines": [
+      "28004",
+      "28008",
+      "99304"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "machiya",
+    "name_en": "Machiya",
+    "name_jp": "町屋",
+    "lat": 35.742354,
+    "lng": 139.781499,
+    "lines": [
+      "23001",
+      "28005",
+      "99305"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "matsudo",
+    "name_en": "Matsudo",
+    "name_jp": "松戸",
+    "lat": 35.784472,
+    "lng": 139.900779,
+    "lines": [
+      "11320",
+      "11320",
+      "99329"
+    ],
+    "line_count": 3,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "mitsukoshimae",
+    "name_en": "Mitsukoshimae",
+    "name_jp": "三越前",
+    "lat": 35.688687,
+    "lng": 139.77323,
+    "lines": [
+      "11314",
+      "28001",
+      "28008"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "mizonokuchi",
+    "name_en": "Mizonokuchi",
+    "name_jp": "溝の口",
+    "lat": 35.598923,
+    "lng": 139.61139,
+    "lines": [
+      "11303",
+      "26003",
+      "26004"
+    ],
+    "line_count": 3,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "motoyawata",
+    "name_en": "Motoyawata",
+    "name_jp": "本八幡",
+    "lat": 35.720898,
+    "lng": 139.92741,
+    "lines": [
+      "11313",
+      "23001",
+      "99304"
+    ],
+    "line_count": 3,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nakano",
+    "name_en": "Nakano",
+    "name_jp": "中野",
+    "lat": 35.705765,
+    "lng": 139.665835,
+    "lines": [
+      "11312",
+      "11313",
+      "28004"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nakano-sakaue",
+    "name_en": "Nakano-Sakaue",
+    "name_jp": "中野坂上",
+    "lat": 35.69792,
+    "lng": 139.68291,
+    "lines": [
+      "28002",
+      "28002",
+      "99301"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nihonbashi",
+    "name_en": "Nihonbashi",
+    "name_jp": "日本橋",
+    "lat": 35.682078,
+    "lng": 139.773516,
+    "lines": [
+      "28001",
+      "28004",
+      "99302"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ogikubo",
+    "name_en": "Ogikubo",
+    "name_jp": "荻窪",
+    "lat": 35.704523,
+    "lng": 139.620109,
+    "lines": [
+      "11312",
+      "11313",
+      "28002"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "oimachi",
+    "name_en": "Oimachi",
+    "name_jp": "大井町",
+    "lat": 35.606257,
+    "lng": 139.73485,
+    "lines": [
+      "11332",
+      "26004",
+      "99337"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "oji",
+    "name_en": "Oji",
+    "name_jp": "王子",
+    "lat": 35.752538,
+    "lng": 139.73809,
+    "lines": [
+      "11332",
+      "28009",
+      "99305"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "omotesando",
+    "name_en": "Omotesando",
+    "name_jp": "表参道",
+    "lat": 35.665247,
+    "lng": 139.712314,
+    "lines": [
+      "28001",
+      "28005",
+      "28008"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-matsudo",
+    "name_en": "Shin-Matsudo",
+    "name_jp": "新松戸",
+    "lat": 35.825467,
+    "lng": 139.921076,
+    "lines": [
+      "11305",
+      "11320",
+      "99333"
+    ],
+    "line_count": 3,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shinjuku-sanchome",
+    "name_en": "Shinjuku-Sanchome",
+    "name_jp": "新宿三丁目",
+    "lat": 35.690847,
+    "lng": 139.704895,
+    "lines": [
+      "28002",
+      "28010",
+      "99304"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "soga",
+    "name_en": "Soga",
+    "name_jp": "蘇我",
+    "lat": 35.582065,
+    "lng": 140.130767,
+    "lines": [
+      "11324",
+      "11325",
+      "11326"
+    ],
+    "line_count": 3,
+    "prefecture": "12",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "takadanobaba",
+    "name_en": "Takadanobaba",
+    "name_jp": "高田馬場",
+    "lat": 35.712677,
+    "lng": 139.703715,
+    "lines": [
+      "11302",
+      "22007",
+      "28004"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "takahata-fudo",
+    "name_en": "Takahata-Fudo",
+    "name_jp": "高幡不動",
+    "lat": 35.662361,
+    "lng": 139.412953,
+    "lines": [
+      "24001",
+      "24005",
+      "99334"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tsurumi",
+    "name_en": "Tsurumi",
+    "name_jp": "鶴見",
+    "lat": 35.508387,
+    "lng": 139.67614,
+    "lines": [
+      "11304",
+      "11332",
+      "27001"
+    ],
+    "line_count": 3,
+    "prefecture": "14",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "wakoshi",
+    "name_en": "Wakoshi",
+    "name_jp": "和光市",
+    "lat": 35.788507,
+    "lng": 139.612434,
+    "lines": [
+      "21001",
+      "28006",
+      "28010"
+    ],
+    "line_count": 3,
+    "prefecture": "11",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "yoyogi",
+    "name_en": "Yoyogi",
+    "name_jp": "代々木",
+    "lat": 35.683061,
+    "lng": 139.702042,
+    "lines": [
+      "11302",
+      "11313",
+      "99301"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "yurakucho",
+    "name_en": "Yurakucho",
+    "name_jp": "有楽町",
+    "lat": 35.675441,
+    "lng": 139.763806,
+    "lines": [
+      "11302",
+      "11332",
+      "28006"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "akabane-iwabuchi",
+    "name_en": "Akabane-Iwabuchi",
+    "name_jp": "赤羽岩淵",
+    "lat": 35.783417,
+    "lng": 139.722103,
+    "lines": [
+      "28009",
+      "99307"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "asakusabashi",
+    "name_en": "Asakusabashi",
+    "name_jp": "浅草橋",
+    "lat": 35.697403,
+    "lng": 139.784427,
+    "lines": [
+      "11313",
+      "99302"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "awajicho",
+    "name_en": "Awajicho",
+    "name_jp": "淡路町",
+    "lat": 35.695434,
+    "lng": 139.767575,
+    "lines": [
+      "28002",
+      "99304"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ayase",
+    "name_en": "Ayase",
+    "name_jp": "綾瀬",
+    "lat": 35.762222,
+    "lng": 139.825019,
+    "lines": [
+      "11320",
+      "28005"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "azabu-juban",
+    "name_en": "Azabu-Juban",
+    "name_jp": "麻布十番",
+    "lat": 35.654682,
+    "lng": 139.737051,
+    "lines": [
+      "28009",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "bubaigawara",
+    "name_en": "Bubaigawara",
+    "name_jp": "分倍河原",
+    "lat": 35.668493,
+    "lng": 139.468798,
+    "lines": [
+      "11303",
+      "24001"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "chofu",
+    "name_en": "Chofu",
+    "name_jp": "調布",
+    "lat": 35.652181,
+    "lng": 139.543988,
+    "lines": [
+      "24001",
+      "24002"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "daimon",
+    "name_en": "Daimon",
+    "name_jp": "大門",
+    "lat": 35.656785,
+    "lng": 139.75466,
+    "lines": [
+      "99301",
+      "99302"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "denenchofu",
+    "name_en": "Denenchofu",
+    "name_jp": "田園調布",
+    "lat": 35.596815,
+    "lng": 139.667356,
+    "lines": [
+      "26001",
+      "26002"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "futako-tamagawa",
+    "name_en": "Futako-Tamagawa",
+    "name_jp": "二子玉川",
+    "lat": 35.611788,
+    "lng": 139.626685,
+    "lines": [
+      "26003",
+      "26004"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "gotokuji",
+    "name_en": "Gotokuji",
+    "name_jp": "豪徳寺",
+    "lat": 35.653807,
+    "lng": 139.647381,
+    "lines": [
+      "25001",
+      "26007"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hatanodai",
+    "name_en": "Hatanodai",
+    "name_jp": "旗の台",
+    "lat": 35.604923,
+    "lng": 139.702286,
+    "lines": [
+      "26004",
+      "26005"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "heiwadai",
+    "name_en": "Heiwadai",
+    "name_jp": "平和台",
+    "lat": 35.757863,
+    "lng": 139.653762,
+    "lines": [
+      "28006",
+      "28010"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "higashi-ikebukuro",
+    "name_en": "Higashi-Ikebukuro",
+    "name_jp": "東池袋",
+    "lat": 35.725732,
+    "lng": 139.719546,
+    "lines": [
+      "28006",
+      "99305"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "higashi-nakano",
+    "name_en": "Higashi-Nakano",
+    "name_jp": "東中野",
+    "lat": 35.706529,
+    "lng": 139.684436,
+    "lines": [
+      "11313",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "higashi-shinjuku",
+    "name_en": "Higashi-Shinjuku",
+    "name_jp": "東新宿",
+    "lat": 35.698915,
+    "lng": 139.707593,
+    "lines": [
+      "28010",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hikawadai",
+    "name_en": "Hikawadai",
+    "name_jp": "氷川台",
+    "lat": 35.74955,
+    "lng": 139.665567,
+    "lines": [
+      "28006",
+      "28010"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hino",
+    "name_en": "Hino",
+    "name_jp": "日野",
+    "lat": 35.679244,
+    "lng": 139.39393,
+    "lines": [
+      "11311",
+      "11312"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hongo-sanchome",
+    "name_en": "Hongo-Sanchome",
+    "name_jp": "本郷三丁目",
+    "lat": 35.706671,
+    "lng": 139.759914,
+    "lines": [
+      "28002",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "jiyugaoka",
+    "name_en": "Jiyugaoka",
+    "name_jp": "自由が丘",
+    "lat": 35.607224,
+    "lng": 139.668664,
+    "lines": [
+      "26001",
+      "26004"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kameido",
+    "name_en": "Kameido",
+    "name_jp": "亀戸",
+    "lat": 35.697345,
+    "lng": 139.826262,
+    "lines": [
+      "11313",
+      "21005"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kanamachi",
+    "name_en": "Kanamachi",
+    "name_jp": "金町",
+    "lat": 35.769582,
+    "lng": 139.870482,
+    "lines": [
+      "11320",
+      "23003"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kanamecho",
+    "name_en": "Kanamecho",
+    "name_jp": "要町",
+    "lat": 35.73323,
+    "lng": 139.698715,
+    "lines": [
+      "28006",
+      "28010"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kasuga",
+    "name_en": "Kasuga",
+    "name_jp": "春日",
+    "lat": 35.709598,
+    "lng": 139.75325,
+    "lines": [
+      "99301",
+      "99303"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kayabacho",
+    "name_en": "Kayabacho",
+    "name_jp": "茅場町",
+    "lat": 35.679752,
+    "lng": 139.780005,
+    "lines": [
+      "28003",
+      "28004"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kiyosumi-shirakawa",
+    "name_en": "Kiyosumi-Shirakawa",
+    "name_jp": "清澄白河",
+    "lat": 35.682105,
+    "lng": 139.798851,
+    "lines": [
+      "28008",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kodaira",
+    "name_en": "Kodaira",
+    "name_jp": "小平",
+    "lat": 35.736963,
+    "lng": 139.488491,
+    "lines": [
+      "22007",
+      "22008"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "koenji",
+    "name_en": "Koenji",
+    "name_jp": "高円寺",
+    "lat": 35.705326,
+    "lng": 139.649664,
+    "lines": [
+      "11312",
+      "11313"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kokkai-gijidomae",
+    "name_en": "Kokkai-Gijidomae",
+    "name_jp": "国会議事堂前",
+    "lat": 35.67393,
+    "lng": 139.745219,
+    "lines": [
+      "28002",
+      "28005"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "komagome",
+    "name_en": "Komagome",
+    "name_jp": "駒込",
+    "lat": 35.736825,
+    "lng": 139.748053,
+    "lines": [
+      "11302",
+      "28009"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "korakuen",
+    "name_en": "Korakuen",
+    "name_jp": "後楽園",
+    "lat": 35.707898,
+    "lng": 139.751864,
+    "lines": [
+      "28002",
+      "28009"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kuramae",
+    "name_en": "Kuramae",
+    "name_jp": "蔵前",
+    "lat": 35.703236,
+    "lng": 139.790931,
+    "lines": [
+      "99301",
+      "99302"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kyobashi",
+    "name_en": "Kyobashi",
+    "name_jp": "京橋",
+    "lat": 35.676856,
+    "lng": 139.770126,
+    "lines": [
+      "28001",
+      "99302"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "machida",
+    "name_en": "Machida",
+    "name_jp": "町田",
+    "lat": 35.542004,
+    "lng": 139.445579,
+    "lines": [
+      "11306",
+      "25001"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "meidaimae",
+    "name_en": "Meidaimae",
+    "name_jp": "明大前",
+    "lat": 35.668758,
+    "lng": 139.650352,
+    "lines": [
+      "24001",
+      "24006"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "monzen-nakacho",
+    "name_en": "Monzen-Nakacho",
+    "name_jp": "門前仲町",
+    "lat": 35.671851,
+    "lng": 139.796209,
+    "lines": [
+      "28004",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "morishita",
+    "name_en": "Morishita",
+    "name_jp": "森下",
+    "lat": 35.68796,
+    "lng": 139.797042,
+    "lines": [
+      "99301",
+      "99304"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "musashi-sakai",
+    "name_en": "Musashi-Sakai",
+    "name_jp": "武蔵境",
+    "lat": 35.702083,
+    "lng": 139.543402,
+    "lines": [
+      "11312",
+      "22012"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nakai",
+    "name_en": "Nakai",
+    "name_jp": "中井",
+    "lat": 35.715106,
+    "lng": 139.686967,
+    "lines": [
+      "22007",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nakameguro",
+    "name_en": "Nakameguro",
+    "name_jp": "中目黒",
+    "lat": 35.643854,
+    "lng": 139.698621,
+    "lines": [
+      "26001",
+      "28003"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ningyocho",
+    "name_en": "Ningyocho",
+    "name_jp": "人形町",
+    "lat": 35.686307,
+    "lng": 139.782285,
+    "lines": [
+      "28003",
+      "99302"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishi-hachioji",
+    "name_en": "Nishi-Hachioji",
+    "name_jp": "西八王子",
+    "lat": 35.656621,
+    "lng": 139.31264,
+    "lines": [
+      "11311",
+      "11312"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishi-kokubunji",
+    "name_en": "Nishi-Kokubunji",
+    "name_jp": "西国分寺",
+    "lat": 35.699744,
+    "lng": 139.465994,
+    "lines": [
+      "11305",
+      "11312"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishi-oi",
+    "name_en": "Nishi-Oi",
+    "name_jp": "西大井",
+    "lat": 35.601616,
+    "lng": 139.721729,
+    "lines": [
+      "11308",
+      "11333"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishiarai",
+    "name_en": "Nishiarai",
+    "name_jp": "西新井",
+    "lat": 35.777323,
+    "lng": 139.790372,
+    "lines": [
+      "21002",
+      "21006"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "otsuka",
+    "name_en": "Otsuka",
+    "name_jp": "大塚",
+    "lat": 35.731412,
+    "lng": 139.728584,
+    "lines": [
+      "11302",
+      "99305"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "roppongi",
+    "name_en": "Roppongi",
+    "name_jp": "六本木",
+    "lat": 35.662836,
+    "lng": 139.731443,
+    "lines": [
+      "28003",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ryogoku",
+    "name_en": "Ryogoku",
+    "name_jp": "両国",
+    "lat": 35.69579,
+    "lng": 139.793334,
+    "lines": [
+      "11313",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "sangenjaya",
+    "name_en": "Sangenjaya",
+    "name_jp": "三軒茶屋",
+    "lat": 35.643716,
+    "lng": 139.670156,
+    "lines": [
+      "26003",
+      "26007"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "sasazuka",
+    "name_en": "Sasazuka",
+    "name_jp": "笹塚",
+    "lat": 35.673758,
+    "lng": 139.667251,
+    "lines": [
+      "24001",
+      "24007"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "senkawa",
+    "name_en": "Senkawa",
+    "name_jp": "千川",
+    "lat": 35.738229,
+    "lng": 139.689271,
+    "lines": [
+      "28006",
+      "28010"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shimokitazawa",
+    "name_en": "Shimokitazawa",
+    "name_jp": "下北沢",
+    "lat": 35.661539,
+    "lng": 139.66691,
+    "lines": [
+      "24006",
+      "25001"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shimotakaido",
+    "name_en": "Shimotakaido",
+    "name_jp": "下高井戸",
+    "lat": 35.66615,
+    "lng": 139.641372,
+    "lines": [
+      "24001",
+      "26007"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-koiwa",
+    "name_en": "Shin-Koiwa",
+    "name_jp": "新小岩",
+    "lat": 35.716903,
+    "lng": 139.857777,
+    "lines": [
+      "11313",
+      "11314"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-okachimachi",
+    "name_en": "Shin-Okachimachi",
+    "name_jp": "新御徒町",
+    "lat": 35.707045,
+    "lng": 139.781958,
+    "lines": [
+      "99301",
+      "99309"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shiodome",
+    "name_en": "Shiodome",
+    "name_jp": "汐留",
+    "lat": 35.663703,
+    "lng": 139.760642,
+    "lines": [
+      "99301",
+      "99311"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shirokane-takanawa",
+    "name_en": "Shirokane-Takanawa",
+    "name_jp": "白金高輪",
+    "lat": 35.642903,
+    "lng": 139.734104,
+    "lines": [
+      "28009",
+      "99303"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shirokanedai",
+    "name_en": "Shirokanedai",
+    "name_jp": "白金台",
+    "lat": 35.637917,
+    "lng": 139.726133,
+    "lines": [
+      "28009",
+      "99303"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "sugamo",
+    "name_en": "Sugamo",
+    "name_jp": "巣鴨",
+    "lat": 35.733445,
+    "lng": 139.739303,
+    "lines": [
+      "11302",
+      "99303"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "suidobashi",
+    "name_en": "Suidobashi",
+    "name_jp": "水道橋",
+    "lat": 35.702039,
+    "lng": 139.754312,
+    "lines": [
+      "11313",
+      "99303"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "sumiyoshi",
+    "name_en": "Sumiyoshi",
+    "name_jp": "住吉",
+    "lat": 35.689073,
+    "lng": 139.815681,
+    "lines": [
+      "28008",
+      "99304"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tabata",
+    "name_en": "Tabata",
+    "name_jp": "田端",
+    "lat": 35.737781,
+    "lng": 139.761229,
+    "lines": [
+      "11302",
+      "11332"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tamachi",
+    "name_en": "Tamachi",
+    "name_jp": "田町",
+    "lat": 35.645736,
+    "lng": 139.747575,
+    "lines": [
+      "11302",
+      "11332"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tameike-sanno",
+    "name_en": "Tameike-Sanno",
+    "name_jp": "溜池山王",
+    "lat": 35.673621,
+    "lng": 139.741419,
+    "lines": [
+      "28001",
+      "28009"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tennozu-isle",
+    "name_en": "Tennozu Isle",
+    "name_jp": "天王洲アイル",
+    "lat": 35.622908,
+    "lng": 139.750675,
+    "lines": [
+      "99336",
+      "99337"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "togoshi-ginza",
+    "name_en": "Togoshi-Ginza",
+    "name_jp": "戸越銀座",
+    "lat": 35.615928,
+    "lng": 139.714862,
+    "lines": [
+      "26005",
+      "99302"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "toshimaen",
+    "name_en": "Toshimaen",
+    "name_jp": "豊島園",
+    "lat": 35.742054,
+    "lng": 139.647979,
+    "lines": [
+      "22004",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "toyosu",
+    "name_en": "Toyosu",
+    "name_jp": "豊洲",
+    "lat": 35.654908,
+    "lng": 139.79621,
+    "lines": [
+      "28006",
+      "99311"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "toyota",
+    "name_en": "Toyota",
+    "name_jp": "豊田",
+    "lat": 35.659502,
+    "lng": 139.381495,
+    "lines": [
+      "11311",
+      "11312"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tsukishima",
+    "name_en": "Tsukishima",
+    "name_jp": "月島",
+    "lat": 35.664871,
+    "lng": 139.784233,
+    "lines": [
+      "28006",
+      "99301"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "uguisudani",
+    "name_en": "Uguisudani",
+    "name_jp": "鶯谷",
+    "lat": 35.721484,
+    "lng": 139.778015,
+    "lines": [
+      "11302",
+      "11332"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "yoyogi-uehara",
+    "name_en": "Yoyogi-Uehara",
+    "name_jp": "代々木上原",
+    "lat": 35.669159,
+    "lng": 139.680153,
+    "lines": [
+      "25001",
+      "28005"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "zoshigaya",
+    "name_en": "Zoshigaya",
+    "name_jp": "雑司が谷",
+    "lat": 35.720233,
+    "lng": 139.714795,
+    "lines": [
+      "28010",
+      "99305"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "akabanebashi",
+    "name_en": "Akabanebashi",
+    "name_jp": "赤羽橋",
+    "lat": 35.655007,
+    "lng": 139.743642,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "akasaka",
+    "name_en": "Akasaka",
+    "name_jp": "赤坂",
+    "lat": 35.67323,
+    "lng": 139.738348,
+    "lines": [
+      "28005"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "akebonobashi",
+    "name_en": "Akebonobashi",
+    "name_jp": "曙橋",
+    "lat": 35.692402,
+    "lng": 139.722881,
+    "lines": [
+      "99304"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "akitsu",
+    "name_en": "Akitsu",
+    "name_jp": "秋津",
+    "lat": 35.778614,
+    "lng": 139.496539,
+    "lines": [
+      "22001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "chitose-funabashi",
+    "name_en": "Chitose-Funabashi",
+    "name_jp": "千歳船橋",
+    "lat": 35.647616,
+    "lng": 139.624544,
+    "lines": [
+      "25001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "chitose-karasuyama",
+    "name_en": "Chitose-Karasuyama",
+    "name_jp": "千歳烏山",
+    "lat": 35.667921,
+    "lng": 139.60067,
+    "lines": [
+      "24001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "edogawabashi",
+    "name_en": "Edogawabashi",
+    "name_jp": "江戸川橋",
+    "lat": 35.709495,
+    "lng": 139.733538,
+    "lines": [
+      "28006"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "fuchu",
+    "name_en": "Fuchu",
+    "name_jp": "府中",
+    "lat": 35.672245,
+    "lng": 139.4799,
+    "lines": [
+      "24001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "fujimigaoka",
+    "name_en": "Fujimigaoka",
+    "name_jp": "富士見ヶ丘",
+    "lat": 35.684805,
+    "lng": 139.607072,
+    "lines": [
+      "24006"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "fussa",
+    "name_en": "Fussa",
+    "name_jp": "福生",
+    "lat": 35.742456,
+    "lng": 139.327763,
+    "lines": [
+      "11315"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "gaiemmae",
+    "name_en": "Gaiemmae",
+    "name_jp": "外苑前",
+    "lat": 35.670527,
+    "lng": 139.717857,
+    "lines": [
+      "28001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "gakugei-daigaku",
+    "name_en": "Gakugei-Daigaku",
+    "name_jp": "学芸大学",
+    "lat": 35.628786,
+    "lng": 139.68522,
+    "lines": [
+      "26001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "gokokuji",
+    "name_en": "Gokokuji",
+    "name_jp": "護国寺",
+    "lat": 35.719044,
+    "lng": 139.72754,
+    "lines": [
+      "28006"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hamacho",
+    "name_en": "Hamacho",
+    "name_jp": "浜町",
+    "lat": 35.688516,
+    "lng": 139.788154,
+    "lines": [
+      "99304"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hamura",
+    "name_en": "Hamura",
+    "name_jp": "羽村",
+    "lat": 35.758073,
+    "lng": 139.316188,
+    "lines": [
+      "11315"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hana-koganei",
+    "name_en": "Hana-Koganei",
+    "name_jp": "花小金井",
+    "lat": 35.726129,
+    "lng": 139.513228,
+    "lines": [
+      "22007"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hanzomon",
+    "name_en": "Hanzomon",
+    "name_jp": "半蔵門",
+    "lat": 35.685703,
+    "lng": 139.74163,
+    "lines": [
+      "28008"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hibarigaoka",
+    "name_en": "Hibarigaoka",
+    "name_jp": "ひばりヶ丘",
+    "lat": 35.751485,
+    "lng": 139.545852,
+    "lines": [
+      "22001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "higashi-koenji",
+    "name_en": "Higashi-Koenji",
+    "name_jp": "東高円寺",
+    "lat": 35.697802,
+    "lng": 139.657822,
+    "lines": [
+      "28002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "higashi-koganei",
+    "name_en": "Higashi-Koganei",
+    "name_jp": "東小金井",
+    "lat": 35.701643,
+    "lng": 139.524837,
+    "lines": [
+      "11312"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hikarigaoka",
+    "name_en": "Hikarigaoka",
+    "name_jp": "光が丘",
+    "lat": 35.758526,
+    "lng": 139.628603,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hiroo",
+    "name_en": "Hiroo",
+    "name_jp": "広尾",
+    "lat": 35.652279,
+    "lng": 139.722202,
+    "lines": [
+      "28003"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hon-komagome",
+    "name_en": "Hon-Komagome",
+    "name_jp": "本駒込",
+    "lat": 35.724155,
+    "lng": 139.753828,
+    "lines": [
+      "28009"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "honancho",
+    "name_en": "Honancho",
+    "name_jp": "方南町",
+    "lat": 35.683496,
+    "lng": 139.656498,
+    "lines": [
+      "28002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "hoya",
+    "name_en": "Hoya",
+    "name_jp": "保谷",
+    "lat": 35.748222,
+    "lng": 139.567753,
+    "lines": [
+      "22001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "inaricho",
+    "name_en": "Inaricho",
+    "name_jp": "稲荷町",
+    "lat": 35.711273,
+    "lng": 139.782593,
+    "lines": [
+      "28001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "inokashira-koen",
+    "name_en": "Inokashira-Koen",
+    "name_jp": "井の頭公園",
+    "lat": 35.697304,
+    "lng": 139.583112,
+    "lines": [
+      "24006"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "iriya",
+    "name_en": "Iriya",
+    "name_jp": "入谷",
+    "lat": 35.719862,
+    "lng": 139.783924,
+    "lines": [
+      "28003"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "itabashi",
+    "name_en": "Itabashi",
+    "name_jp": "板橋",
+    "lat": 35.745435,
+    "lng": 139.719507,
+    "lines": [
+      "11321"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "iwamotocho",
+    "name_en": "Iwamotocho",
+    "name_jp": "岩本町",
+    "lat": 35.695534,
+    "lng": 139.775866,
+    "lines": [
+      "99304"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "izumi-tamagawa",
+    "name_en": "Izumi-Tamagawa",
+    "name_jp": "和泉多摩川",
+    "lat": 35.627349,
+    "lng": 139.573695,
+    "lines": [
+      "25001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "jujo",
+    "name_en": "Jujo",
+    "name_jp": "十条",
+    "lat": 35.760321,
+    "lng": 139.722233,
+    "lines": [
+      "11321"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kachidoki",
+    "name_en": "Kachidoki",
+    "name_jp": "勝どき",
+    "lat": 35.658507,
+    "lng": 139.776442,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kameari",
+    "name_en": "Kameari",
+    "name_jp": "亀有",
+    "lat": 35.766527,
+    "lng": 139.847573,
+    "lines": [
+      "11320"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kasai",
+    "name_en": "Kasai",
+    "name_jp": "葛西",
+    "lat": 35.663554,
+    "lng": 139.872458,
+    "lines": [
+      "28004"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "keio-horinouchi",
+    "name_en": "Keio-Horinouchi",
+    "name_jp": "京王堀之内",
+    "lat": 35.624438,
+    "lng": 139.400314,
+    "lines": [
+      "24002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kiba",
+    "name_en": "Kiba",
+    "name_jp": "木場",
+    "lat": 35.669351,
+    "lng": 139.807042,
+    "lines": [
+      "28004"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kikukawa",
+    "name_en": "Kikukawa",
+    "name_jp": "菊川",
+    "lat": 35.688379,
+    "lng": 139.806016,
+    "lines": [
+      "99304"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kita-ayase",
+    "name_en": "Kita-Ayase",
+    "name_jp": "北綾瀬",
+    "lat": 35.777117,
+    "lng": 139.832035,
+    "lines": [
+      "28005"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kita-fuchu",
+    "name_en": "Kita-Fuchu",
+    "name_jp": "北府中",
+    "lat": 35.68088,
+    "lng": 139.471792,
+    "lines": [
+      "11305"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kita-sando",
+    "name_en": "Kita-Sando",
+    "name_jp": "北参道",
+    "lat": 35.678459,
+    "lng": 139.705453,
+    "lines": [
+      "28010"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kita-shinagawa",
+    "name_en": "Kita-Shinagawa",
+    "name_jp": "北品川",
+    "lat": 35.622458,
+    "lng": 139.739191,
+    "lines": [
+      "27001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kitami",
+    "name_en": "Kitami",
+    "name_jp": "喜多見",
+    "lat": 35.636697,
+    "lng": 139.587445,
+    "lines": [
+      "25001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kiyose",
+    "name_en": "Kiyose",
+    "name_jp": "清瀬",
+    "lat": 35.772221,
+    "lng": 139.519917,
+    "lines": [
+      "22001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "koiwa",
+    "name_en": "Koiwa",
+    "name_jp": "小岩",
+    "lat": 35.733207,
+    "lng": 139.881755,
+    "lines": [
+      "11313"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kojimachi",
+    "name_en": "Kojimachi",
+    "name_jp": "麹町",
+    "lat": 35.684006,
+    "lng": 139.737613,
+    "lines": [
+      "28006"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kokuritsu-kyogijo",
+    "name_en": "Kokuritsu-Kyogijo",
+    "name_jp": "国立競技場",
+    "lat": 35.679831,
+    "lng": 139.714932,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "komae",
+    "name_en": "Komae",
+    "name_jp": "狛江",
+    "lat": 35.632001,
+    "lng": 139.577127,
+    "lines": [
+      "25001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kugayama",
+    "name_en": "Kugayama",
+    "name_jp": "久我山",
+    "lat": 35.688138,
+    "lng": 139.599211,
+    "lines": [
+      "24006"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kumegawa",
+    "name_en": "Kumegawa",
+    "name_jp": "久米川",
+    "lat": 35.749575,
+    "lng": 139.472653,
+    "lines": [
+      "22007"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kunitachi",
+    "name_en": "Kunitachi",
+    "name_jp": "国立",
+    "lat": 35.69923,
+    "lng": 139.44634,
+    "lines": [
+      "11312"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "kyodo",
+    "name_en": "Kyodo",
+    "name_jp": "経堂",
+    "lat": 35.650991,
+    "lng": 139.635993,
+    "lines": [
+      "25001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "magome",
+    "name_en": "Magome",
+    "name_jp": "馬込",
+    "lat": 35.596435,
+    "lng": 139.711772,
+    "lines": [
+      "99302"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "mejiro",
+    "name_en": "Mejiro",
+    "name_jp": "目白",
+    "lat": 35.720476,
+    "lng": 139.706228,
+    "lines": [
+      "11302"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "minami-osawa",
+    "name_en": "Minami-Osawa",
+    "name_jp": "南大沢",
+    "lat": 35.6141,
+    "lng": 139.3798,
+    "lines": [
+      "24002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "minami-sunamachi",
+    "name_en": "Minami-Sunamachi",
+    "name_jp": "南砂町",
+    "lat": 35.668796,
+    "lng": 139.83065,
+    "lines": [
+      "28004"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "minowa",
+    "name_en": "Minowa",
+    "name_jp": "三ノ輪",
+    "lat": 35.729623,
+    "lng": 139.791485,
+    "lines": [
+      "28003"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "mitakadai",
+    "name_en": "Mitakadai",
+    "name_jp": "三鷹台",
+    "lat": 35.692046,
+    "lng": 139.589298,
+    "lines": [
+      "24006"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "musashi-koganei",
+    "name_en": "Musashi-Koganei",
+    "name_jp": "武蔵小金井",
+    "lat": 35.701337,
+    "lng": 139.506483,
+    "lines": [
+      "11312"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "musashi-koyama",
+    "name_en": "Musashi-Koyama",
+    "name_jp": "武蔵小山",
+    "lat": 35.620538,
+    "lng": 139.704524,
+    "lines": [
+      "26002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "myogadani",
+    "name_en": "Myogadani",
+    "name_jp": "茗荷谷",
+    "lat": 35.716989,
+    "lng": 139.737184,
+    "lines": [
+      "28002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nerima-kasugacho",
+    "name_en": "Nerima-Kasugacho",
+    "name_jp": "練馬春日町",
+    "lat": 35.751452,
+    "lng": 139.640236,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nezu",
+    "name_en": "Nezu",
+    "name_jp": "根津",
+    "lat": 35.7174,
+    "lng": 139.765655,
+    "lines": [
+      "28005"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishi-kasai",
+    "name_en": "Nishi-Kasai",
+    "name_jp": "西葛西",
+    "lat": 35.664631,
+    "lng": 139.859259,
+    "lines": [
+      "28004"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishi-magome",
+    "name_en": "Nishi-Magome",
+    "name_jp": "西馬込",
+    "lat": 35.586859,
+    "lng": 139.705942,
+    "lines": [
+      "99302"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishi-shinjuku",
+    "name_en": "Nishi-Shinjuku",
+    "name_jp": "西新宿",
+    "lat": 35.694298,
+    "lng": 139.692778,
+    "lines": [
+      "28002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishi-shinjuku-gochome",
+    "name_en": "Nishi-Shinjuku-Gochome",
+    "name_jp": "西新宿五丁目",
+    "lat": 35.689798,
+    "lng": 139.684304,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nishi-waseda",
+    "name_en": "Nishi-Waseda",
+    "name_jp": "西早稲田",
+    "lat": 35.708242,
+    "lng": 139.709101,
+    "lines": [
+      "28010"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "nogizaka",
+    "name_en": "Nogizaka",
+    "name_jp": "乃木坂",
+    "lat": 35.666572,
+    "lng": 139.726215,
+    "lines": [
+      "28005"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ochiai-minami-nagasaki",
+    "name_en": "Ochiai-Minami-Nagasaki",
+    "name_jp": "落合南長崎",
+    "lat": 35.723608,
+    "lng": 139.683303,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "odaiba-kaihinkoen",
+    "name_en": "Odaiba-Kaihinkoen",
+    "name_jp": "お台場海浜公園",
+    "lat": 35.629813,
+    "lng": 139.778607,
+    "lines": [
+      "99311"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "oizumi-gakuen",
+    "name_en": "Oizumi-Gakuen",
+    "name_jp": "大泉学園",
+    "lat": 35.749406,
+    "lng": 139.586732,
+    "lines": [
+      "22001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "oji-kamiya",
+    "name_en": "Oji-Kamiya",
+    "name_jp": "王子神谷",
+    "lat": 35.765172,
+    "lng": 139.735933,
+    "lines": [
+      "28009"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ome",
+    "name_en": "Ome",
+    "name_jp": "青梅",
+    "lat": 35.790512,
+    "lng": 139.258096,
+    "lines": [
+      "11315"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "omori",
+    "name_en": "Omori",
+    "name_jp": "大森",
+    "lat": 35.588903,
+    "lng": 139.728079,
+    "lines": [
+      "11332"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "roppongi-itchome",
+    "name_en": "Roppongi-Itchome",
+    "name_jp": "六本木一丁目",
+    "lat": 35.665595,
+    "lng": 139.739,
+    "lines": [
+      "28009"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "sakuradamon",
+    "name_en": "Sakuradamon",
+    "name_jp": "桜田門",
+    "lat": 35.677405,
+    "lng": 139.75149,
+    "lines": [
+      "28006"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "sakurajosui",
+    "name_en": "Sakurajosui",
+    "name_jp": "桜上水",
+    "lat": 35.66768,
+    "lng": 139.63129,
+    "lines": [
+      "24001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "seijo-gakuenmae",
+    "name_en": "Seijo-Gakuenmae",
+    "name_jp": "成城学園前",
+    "lat": 35.640114,
+    "lng": 139.598958,
+    "lines": [
+      "25001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "seiseki-sakuragaoka",
+    "name_en": "Seiseki-Sakuragaoka",
+    "name_jp": "聖蹟桜ヶ丘",
+    "lat": 35.650814,
+    "lng": 139.446979,
+    "lines": [
+      "24001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "sendagi",
+    "name_en": "Sendagi",
+    "name_jp": "千駄木",
+    "lat": 35.725549,
+    "lng": 139.763243,
+    "lines": [
+      "28005"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "sengawa",
+    "name_en": "Sengawa",
+    "name_jp": "仙川",
+    "lat": 35.662257,
+    "lng": 139.584908,
+    "lines": [
+      "24001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "setagaya-daita",
+    "name_en": "Setagaya-Daita",
+    "name_jp": "世田谷代田",
+    "lat": 35.65834,
+    "lng": 139.661557,
+    "lines": [
+      "25001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shakujii-koen",
+    "name_en": "Shakujii-Koen",
+    "name_jp": "石神井公園",
+    "lat": 35.743563,
+    "lng": 139.606981,
+    "lines": [
+      "22001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shimo",
+    "name_en": "Shimo",
+    "name_jp": "志茂",
+    "lat": 35.777948,
+    "lng": 139.732599,
+    "lines": [
+      "28009"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-akitsu",
+    "name_en": "Shin-Akitsu",
+    "name_jp": "新秋津",
+    "lat": 35.778331,
+    "lng": 139.493592,
+    "lines": [
+      "11305"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-egota",
+    "name_en": "Shin-Egota",
+    "name_jp": "新江古田",
+    "lat": 35.732538,
+    "lng": 139.670653,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-koenji",
+    "name_en": "Shin-Koenji",
+    "name_jp": "新高円寺",
+    "lat": 35.697985,
+    "lng": 139.648068,
+    "lines": [
+      "28002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-nakano",
+    "name_en": "Shin-Nakano",
+    "name_jp": "新中野",
+    "lat": 35.697491,
+    "lng": 139.66903,
+    "lines": [
+      "28002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-okubo",
+    "name_en": "Shin-Okubo",
+    "name_jp": "新大久保",
+    "lat": 35.700875,
+    "lng": 139.700261,
+    "lines": [
+      "11302"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-otsuka",
+    "name_en": "Shin-Otsuka",
+    "name_jp": "新大塚",
+    "lat": 35.72569,
+    "lng": 139.729971,
+    "lines": [
+      "28002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shin-sakuradai",
+    "name_en": "Shin-Sakuradai",
+    "name_jp": "新桜台",
+    "lat": 35.74077,
+    "lng": 139.6683,
+    "lines": [
+      "22003"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shinjuku-gyoenmae",
+    "name_en": "Shinjuku-Gyoenmae",
+    "name_jp": "新宿御苑前",
+    "lat": 35.688588,
+    "lng": 139.71069,
+    "lines": [
+      "28002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "shintomicho",
+    "name_en": "Shintomicho",
+    "name_jp": "新富町",
+    "lat": 35.670462,
+    "lng": 139.773711,
+    "lines": [
+      "28006"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "soshigaya-okura",
+    "name_en": "Soshigaya-Okura",
+    "name_jp": "祖師ヶ谷大蔵",
+    "lat": 35.643236,
+    "lng": 139.609659,
+    "lines": [
+      "25001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "suehirocho",
+    "name_en": "Suehirocho",
+    "name_jp": "末広町",
+    "lat": 35.702972,
+    "lng": 139.771713,
+    "lines": [
+      "28001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "suzukakedai",
+    "name_en": "Suzukakedai",
+    "name_jp": "すずかけ台",
+    "lat": 35.517094,
+    "lng": 139.481684,
+    "lines": [
+      "26003"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "takaido",
+    "name_en": "Takaido",
+    "name_jp": "高井戸",
+    "lat": 35.683253,
+    "lng": 139.615115,
+    "lines": [
+      "24006"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "takenotsuka",
+    "name_en": "Takenotsuka",
+    "name_jp": "竹ノ塚",
+    "lat": 35.794368,
+    "lng": 139.790788,
+    "lines": [
+      "21002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tanashi",
+    "name_en": "Tanashi",
+    "name_jp": "田無",
+    "lat": 35.727307,
+    "lng": 139.539259,
+    "lines": [
+      "22007"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tochomae",
+    "name_en": "Tochomae",
+    "name_jp": "都庁前",
+    "lat": 35.690551,
+    "lng": 139.69257,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "todaimae",
+    "name_en": "Todaimae",
+    "name_jp": "東大前",
+    "lat": 35.717633,
+    "lng": 139.758025,
+    "lines": [
+      "28009"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "toranomon",
+    "name_en": "Toranomon",
+    "name_jp": "虎ノ門",
+    "lat": 35.670236,
+    "lng": 139.749832,
+    "lines": [
+      "28001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "toritsu-daigaku",
+    "name_en": "Toritsu-Daigaku",
+    "name_jp": "都立大学",
+    "lat": 35.617835,
+    "lng": 139.676393,
+    "lines": [
+      "26001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "toyocho",
+    "name_en": "Toyocho",
+    "name_jp": "東陽町",
+    "lat": 35.669629,
+    "lng": 139.817596,
+    "lines": [
+      "28004"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tsukiji",
+    "name_en": "Tsukiji",
+    "name_jp": "築地",
+    "lat": 35.668115,
+    "lng": 139.772603,
+    "lines": [
+      "28003"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "tsukiji-shijo",
+    "name_en": "Tsukiji-Shijo",
+    "name_jp": "築地市場",
+    "lat": 35.664895,
+    "lng": 139.766915,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "umegaoka",
+    "name_en": "Umegaoka",
+    "name_jp": "梅ヶ丘",
+    "lat": 35.656024,
+    "lng": 139.653628,
+    "lines": [
+      "25001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "ushigome-kagurazaka",
+    "name_en": "Ushigome-Kagurazaka",
+    "name_jp": "牛込神楽坂",
+    "lat": 35.700851,
+    "lng": 139.735802,
+    "lines": [
+      "99301"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "yotsuya-sanchome",
+    "name_en": "Yotsuya-Sanchome",
+    "name_jp": "四谷三丁目",
+    "lat": 35.687958,
+    "lng": 139.720103,
+    "lines": [
+      "28002"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "yushima",
+    "name_en": "Yushima",
+    "name_jp": "湯島",
+    "lat": 35.708243,
+    "lng": 139.769916,
+    "lines": [
+      "28005"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "yutenji",
+    "name_en": "Yutenji",
+    "name_jp": "祐天寺",
+    "lat": 35.637163,
+    "lng": 139.690758,
+    "lines": [
+      "26001"
+    ],
+    "line_count": 1,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  }
+]
