@@ -1003,6 +1003,23 @@
     "transit_minutes": null
   },
   {
+    "slug": "harajuku",
+    "name_en": "Harajuku",
+    "name_jp": "明治神宮前〈原宿〉",
+    "lat": 35.670646,
+    "lng": 139.702592,
+    "lines": [
+      "11302",
+      "28005",
+      "28010"
+    ],
+    "line_count": 3,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
     "slug": "hashimoto",
     "name_en": "Hashimoto",
     "name_jp": "橋本",
@@ -1606,6 +1623,22 @@
     "lines": [
       "28009",
       "99307"
+    ],
+    "line_count": 2,
+    "prefecture": "13",
+    "ratings": null,
+    "rent_avg": null,
+    "transit_minutes": null
+  },
+  {
+    "slug": "asagaya",
+    "name_en": "Asagaya",
+    "name_jp": "阿佐ケ谷",
+    "lat": 35.704818,
+    "lng": 139.635868,
+    "lines": [
+      "11312",
+      "11313"
     ],
     "line_count": 2,
     "prefecture": "13",

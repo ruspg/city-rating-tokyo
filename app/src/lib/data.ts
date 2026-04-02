@@ -11,6 +11,7 @@ export function getStations(): Station[] {
         ratings: demo.ratings,
         transit_minutes: demo.transit_minutes,
         rent_avg: demo.rent_avg,
+        description: demo.description || null,
       };
     }
     return s;
