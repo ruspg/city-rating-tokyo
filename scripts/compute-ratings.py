@@ -370,9 +370,6 @@ def main():
             "gym_sports": gym_ratings.get(slug, 5),
             "vibe": vibe_ratings.get(slug, 5),
             "crowd": crowd_ratings.get(slug, 5),
-            "confidence": json.dumps(confidence.get(slug, {})),
-            "sources": json.dumps(sources_used.get(slug, {})),
-            "data_date": data_date,
             "source": "computed_v2",
             "computed_at": date.today().isoformat(),
         }
@@ -419,6 +416,18 @@ def main():
                     warnings.append(f"{cat}: computed={actual} expected~{exp_val} DIFF={abs(actual-exp_val)}")
             warn_str = f"  ⚠️  {'; '.join(warnings)}" if warnings else ""
             print(f"  {slug:20s}: {vals}{warn_str}")
+
+    # ===== Write metadata sidecar (always, even on dry-run) =====
+    metadata_path = ROOT / "data" / "rating-metadata.json"
+    metadata = {}
+    for slug in all_slugs:
+        metadata[slug] = {
+            "confidence": confidence.get(slug, {}),
+            "sources": sources_used.get(slug, {}),
+            "data_date": data_date,
+        }
+    metadata_path.write_text(json.dumps(metadata, separators=(",", ":")))
+    print(f"\nWrote metadata sidecar: {metadata_path} ({len(metadata)} stations)")
 
     if args.dry_run:
         print("\nDry run — not writing to NocoDB.")

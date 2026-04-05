@@ -70,10 +70,11 @@ def parse_existing_ai_entries(ts_path):
     return ai_entries
 
 
-def format_ratings_entry(slug, data, rent_data=None):
+def format_ratings_entry(slug, data, rent_data=None, metadata=None):
     """Format a computed rating entry as TypeScript."""
     r = data
     rent = rent_data or {}
+    meta = metadata or {}
 
     rent_1k = rent.get("1k_1ldk") or "null"
     rent_2ldk = rent.get("2ldk") or "null"
@@ -86,24 +87,10 @@ def format_ratings_entry(slug, data, rent_data=None):
 
     safe_slug = f"'{slug}'" if '-' in slug else slug
 
-    # Parse confidence and sources from JSON strings (stored in NocoDB)
-    conf = {}
-    srcs = {}
-    data_date = r.get("data_date", "2026-04")
-    if isinstance(r.get("confidence"), str):
-        try:
-            conf = json.loads(r["confidence"])
-        except (json.JSONDecodeError, TypeError):
-            pass
-    elif isinstance(r.get("confidence"), dict):
-        conf = r["confidence"]
-    if isinstance(r.get("sources"), str):
-        try:
-            srcs = json.loads(r["sources"])
-        except (json.JSONDecodeError, TypeError):
-            pass
-    elif isinstance(r.get("sources"), dict):
-        srcs = r["sources"]
+    # Read confidence and sources from metadata sidecar
+    conf = meta.get("confidence", {})
+    srcs = meta.get("sources", {})
+    data_date = meta.get("data_date", "2026-04")
 
     # Format confidence object
     cats = ["food", "nightlife", "transport", "rent", "safety", "green", "gym_sports", "vibe", "crowd"]
@@ -174,6 +161,14 @@ def main():
             rent_data = json.loads(path.read_text())
     print(f"  Rent data: {len(rent_data)} stations")
 
+    # 3b. Load metadata sidecar (confidence, sources, data_date)
+    print("Loading rating metadata...")
+    metadata_path = ROOT / "data" / "rating-metadata.json"
+    metadata = {}
+    if metadata_path.exists():
+        metadata = json.loads(metadata_path.read_text())
+    print(f"  Metadata: {len(metadata)} stations")
+
     # 4. Load existing transit_minutes from demo-ratings (parse for computed entries)
     existing_transit = {}
     if output_path.exists():
@@ -238,7 +233,8 @@ def main():
 
         if slug in computed:
             rent = rent_data.get(slug, {})
-            entry = format_ratings_entry(slug, computed[slug], rent)
+            meta = metadata.get(slug, {})
+            entry = format_ratings_entry(slug, computed[slug], rent, meta)
 
             # Replace transit_minutes with existing data if available
             if slug in existing_transit:
