@@ -143,7 +143,7 @@ def merge_ai_confidence(entry_text, ai_ratings, computed_row):
     return conf_str, srcs_str, data_date
 
 
-def format_ratings_entry(slug, data, rent_data=None):
+def format_ratings_entry(slug, data, rent_data=None, transit_data=None):
     """Format a computed rating entry as TypeScript."""
     r = data
     rent = rent_data or {}
@@ -153,9 +153,11 @@ def format_ratings_entry(slug, data, rent_data=None):
     rent_source = rent.get("source", "computed")
     rent_updated = rent.get("updated", "2026-04")
 
-    # Estimate transit minutes from coordinates (rough)
-    # These are kept from existing data or computed
-    transit = "{ shibuya: 30, shinjuku: 30, tokyo: 30, ikebukuro: 30, shinagawa: 30 }"
+    # Transit minutes from pre-computed transit-times.json (CRTKY-81)
+    t = transit_data or {}
+    transit = ("{ shibuya: %d, shinjuku: %d, tokyo: %d, ikebukuro: %d, shinagawa: %d }"
+               % (t.get("shibuya", 30), t.get("shinjuku", 30), t.get("tokyo", 30),
+                  t.get("ikebukuro", 30), t.get("shinagawa", 30)))
 
     safe_slug = f"'{slug}'" if '-' in slug else slug
 
@@ -242,26 +244,13 @@ def main():
             rent_data = json.loads(path.read_text())
     print(f"  Rent data: {len(rent_data)} stations")
 
-    # 4. Load existing transit_minutes from demo-ratings (parse for computed entries)
-    existing_transit = {}
-    if output_path.exists():
-        content = output_path.read_text()
-        # Quick parse transit_minutes for all entries
-        for match in re.finditer(
-            r"'?([a-z0-9-]+)'?\s*:\s*\{[^}]*transit_minutes:\s*(\{[^}]+\})",
-            content
-        ):
-            slug = match.group(1)
-            transit_str = match.group(2)
-            # Parse the transit object
-            try:
-                # Convert JS object to JSON
-                json_str = transit_str.replace("'", '"')
-                transit = json.loads(json_str)
-                existing_transit[slug] = transit
-            except Exception:
-                pass
-    print(f"  Existing transit data: {len(existing_transit)} stations")
+    # 4. Load transit times from transit-times.json (CRTKY-81)
+    transit_times = {}
+    transit_path = ROOT / "data" / "transit-times.json"
+    if transit_path.exists():
+        transit_raw = json.loads(transit_path.read_text())
+        transit_times = transit_raw.get("transit_times", {})
+    print(f"  Transit times: {len(transit_times)} stations")
 
     # 5. Build output
     ai_count = 0
@@ -329,21 +318,8 @@ def main():
 
         if slug in computed:
             rent = rent_data.get(slug, {})
-            entry = format_ratings_entry(slug, computed[slug], rent)
-
-            # Replace transit_minutes with existing data if available
-            if slug in existing_transit:
-                t = existing_transit[slug]
-                transit_str = (f"{{ shibuya: {t.get('shibuya', 30)}, "
-                             f"shinjuku: {t.get('shinjuku', 30)}, "
-                             f"tokyo: {t.get('tokyo', 30)}, "
-                             f"ikebukuro: {t.get('ikebukuro', 30)}, "
-                             f"shinagawa: {t.get('shinagawa', 30)} }}")
-                entry = entry.replace(
-                    "transit_minutes: { shibuya: 30, shinjuku: 30, tokyo: 30, ikebukuro: 30, shinagawa: 30 }",
-                    f"transit_minutes: {transit_str}"
-                )
-
+            transit = transit_times.get(slug, {})
+            entry = format_ratings_entry(slug, computed[slug], rent, transit)
             parts.append(entry)
             computed_count += 1
         else:
