@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 import { trackError } from '@/lib/track-error';
 
 interface GalleryImage {
@@ -25,13 +25,29 @@ function GalleryImageCard({
   image: GalleryImage;
   onClick: () => void;
 }) {
+  const [inView, setInView] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const [failed, setFailed] = useState(false);
+  const cardRef = useRef<HTMLDivElement>(null);
+
+  // Manual IntersectionObserver replaces loading="lazy" which Chrome
+  // refuses to trigger for opacity:0 images behind an LQIP layer.
+  useEffect(() => {
+    const el = cardRef.current;
+    if (!el || inView) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setInView(true); obs.disconnect(); } },
+      { rootMargin: '200px' },
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, [inView]);
 
   if (failed) return null;
 
   return (
     <div
+      ref={cardRef}
       className="relative group overflow-hidden rounded-lg bg-gray-100 aspect-[4/3] cursor-pointer"
       onClick={onClick}
     >
@@ -45,21 +61,20 @@ function GalleryImageCard({
           style={{ filter: 'blur(20px)', transform: 'scale(1.1)' }}
         />
       )}
-      {/* Full-res image — fades in over LQIP.
-          Use opacity 0.01 (not 0) while loading: Chrome skips lazy-loading
-          for fully transparent images. The LQIP hides the near-invisible img. */}
-      <img
-        src={image.url}
-        alt={image.alt}
-        loading="lazy"
-        onLoad={() => setLoaded(true)}
-        onError={() => { setFailed(true); trackError('image', { src: image.url, context: 'gallery' }); }}
-        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-        style={{
-          opacity: loaded ? 1 : 0.01,
-          transition: 'opacity 200ms ease-in, transform 300ms',
-        }}
-      />
+      {/* Full-res image — src set only after card enters viewport */}
+      {inView && (
+        <img
+          src={image.url}
+          alt={image.alt}
+          onLoad={() => setLoaded(true)}
+          onError={() => { setFailed(true); trackError('image', { src: image.url, context: 'gallery' }); }}
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          style={{
+            opacity: loaded ? 1 : 0,
+            transition: 'opacity 200ms ease-in, transform 300ms',
+          }}
+        />
+      )}
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent px-2 py-1">
         {image.source === 'unsplash' && image.photographer ? (
           <a
