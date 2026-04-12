@@ -43,15 +43,13 @@ function GalleryImageCard({
     return () => obs.disconnect();
   }, [inView]);
 
-  if (failed) return null;
-
   return (
     <div
       ref={cardRef}
       className="relative group overflow-hidden rounded-lg bg-gray-100 aspect-[4/3] cursor-pointer"
-      onClick={onClick}
+      onClick={failed ? undefined : onClick}
     >
-      {/* LQIP blur layer — shown until full image loads */}
+      {/* LQIP blur layer — shown until full image loads (or permanently if load fails) */}
       {image.lqip && !loaded && (
         <img
           src={image.lqip}
@@ -62,7 +60,7 @@ function GalleryImageCard({
         />
       )}
       {/* Full-res image — src set only after card enters viewport */}
-      {inView && (
+      {inView && !failed && (
         <img
           src={image.url}
           alt={image.alt}
@@ -169,7 +167,7 @@ export default function ImageGallery({ images, stationName }: ImageGalleryProps)
       <h2 className="font-bold text-lg mb-3">Gallery</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
         {visibleImages.map((img, i) => (
-          <GalleryImageCard key={i} image={img} onClick={() => openLightbox(i)} />
+          <GalleryImageCard key={img.url} image={img} onClick={() => openLightbox(i)} />
         ))}
       </div>
       {hasMore && !showAll && (
