@@ -2,6 +2,7 @@ import { getMapStations, getThumbnails, getSnippets } from '@/lib/data';
 import FilterPanel from '@/components/FilterPanel';
 import MapWrapper from '@/components/MapWrapper';
 import MobileDrawer from '@/components/MobileDrawer';
+import MobileSearchPill from '@/components/MobileSearchPill';
 import HeaderActions from '@/components/HeaderActions';
 import FeedbackWidget from '@/components/FeedbackWidget';
 
@@ -50,6 +51,7 @@ export default function Home() {
             thumbnails={thumbnails}
             snippets={snippets}
           />
+          <MobileSearchPill stations={stations} />
           <MobileDrawer stations={stations} />
         </main>
       </div>
