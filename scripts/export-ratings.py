@@ -94,7 +94,7 @@ def merge_ai_confidence(entry_text, ai_ratings, computed_row):
     - If no computed data exists → all categories get 'editorial'.
     """
     cats = ["food", "nightlife", "transport", "rent", "safety",
-            "green", "gym_sports", "vibe", "crowd"]
+            "green", "gym_sports", "vibe", "crowd", "daily_essentials"]
 
     # Parse computed confidence/sources from NocoDB JSON strings
     comp_conf = {}
@@ -195,7 +195,8 @@ def format_ratings_entry(slug, data, rent_data=None, transit_data=None):
         f"  {safe_slug}: {{\n"
         f"    ratings: {{ food: {r['food']}, nightlife: {r['nightlife']}, transport: {r['transport']}, "
         f"rent: {r['rent']}, safety: {r['safety']}, green: {r['green']}, "
-        f"gym_sports: {r['gym_sports']}, vibe: {r['vibe']}, crowd: {r['crowd']} }},\n"
+        f"gym_sports: {r['gym_sports']}, vibe: {r['vibe']}, crowd: {r['crowd']}, "
+        f"daily_essentials: {r.get('daily_essentials', 5)} }},\n"
         f"    transit_minutes: {transit},\n"
         f"    rent_avg: {{ '1k_1ldk': {rent_1k}, '2ldk': {rent_2ldk}, "
         f"source: '{rent_source}', updated: '{rent_updated}' }},\n"
