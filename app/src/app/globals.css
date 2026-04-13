@@ -132,6 +132,14 @@ body {
   }
 }
 
+/* 44px touch targets for map controls (WCAG 2.5.5) */
+@media (pointer: coarse) {
+  .map-control-btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
 /* Suppress cursor-help on touch — no cursor exists */
 @media (hover: none) {
   .cursor-help {
