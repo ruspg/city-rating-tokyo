@@ -33,10 +33,14 @@ export default function MobileDrawer({ stations }: MobileDrawerProps) {
     if (!open && visible) {
       const el = drawerRef.current;
       if (!el) { setVisible(false); return; }
-      const onEnd = () => setVisible(false);
-      el.addEventListener('transitionend', onEnd, { once: true });
-      // Fallback in case transitionend doesn't fire
-      const timer = setTimeout(onEnd, 350);
+      const onEnd = (e: TransitionEvent) => {
+        // Ignore bubbled transitionend from children (e.g. button transition-colors)
+        if (e.target !== el) return;
+        setVisible(false);
+      };
+      el.addEventListener('transitionend', onEnd);
+      // Fallback in case transitionend doesn't fire (e.g. display:none race)
+      const timer = setTimeout(() => setVisible(false), 350);
       return () => { el.removeEventListener('transitionend', onEnd); clearTimeout(timer); };
     }
   }, [open, visible]);
